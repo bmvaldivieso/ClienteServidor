@@ -218,6 +218,15 @@ El proyecto incluye un pipeline completo de DevSecOps con GitHub Actions:
 
 Consulta `DEVSECOPS.md` para más detalles sobre el pipeline CI/CD.
 
+## 🖥️ Despliegue en Dos Nodos
+
+El proyecto puede desplegarse en dos nodos separados para demostrar claramente la arquitectura Cliente-Servidor:
+
+- **NODO 1 (Cliente)**: Servidor web con HTML/CSS/JavaScript
+- **NODO 2 (Servidor)**: PHP-FPM + PostgreSQL con la aplicación
+
+Consulta `DESPLIEGUE_DOS_NODOS.md` para instrucciones completas de configuración y despliegue.
+
 ## 🔒 Seguridad
 
 - **Prepared Statements**: Previene SQL injection
